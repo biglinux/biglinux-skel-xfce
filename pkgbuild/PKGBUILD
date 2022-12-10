@@ -17,4 +17,5 @@ sha256sums=('SKIP')
 
 package() {
     cp -r "${srcdir}/${pkgname}/etc/" "${pkgdir}/"
+    cp -r "${srcdir}/${pkgname}/usr/" "${pkgdir}/"
 }
