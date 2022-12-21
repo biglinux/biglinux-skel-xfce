@@ -1,0 +1,26 @@
+[Desktop Entry]
+GenericName=Advanced Text Editor
+GenericName[pt]=Editor de Texto Avançado
+GenericName[pt_BR]=
+Name=Kate
+Name[pt]=Kate
+Name[pt_BR]=Anotações
+Comment=KDE Advanced Text Editor
+Comment[pt]=Editor de Texto Avançado do KDE
+Comment[pt_BR]=
+MimeType=text/plain;inode/directory;
+Exec=kate -b %U
+StartupNotify=true
+X-KDE-HasTempFileOption=true
+Icon=kate
+X-DocPath=kate/index.html
+Type=Application
+InitialPreference=9
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.kde.kate
+Categories=Qt;KDE;Utility;TextEditor;
+Keywords=text;txt;editor;programming;programmer;development;developer;code;
+Keywords[pt]=texto;txt;editor;programação;programador;desenvolvimento;desenvolvedor;código;
+Keywords[pt_BR]=texto;txt;editor;programação;programador;desenvolvimento;desenvolvedor;código;
+StartupWMClass=kate
+X-XFCE-Source=file:///usr/share/applications/org.kde.kate.desktop
