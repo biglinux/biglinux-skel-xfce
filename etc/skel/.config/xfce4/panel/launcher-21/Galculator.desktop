@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=Utility;
+Comment[pt_BR]=Executa cálculos simples e científicos
+Comment=Executa cálculos simples e científicos
+Exec=galculator
+GenericName[pt_BR]=
+GenericName=
+Icon=galculator
+MimeType=
+Name[pt_BR]=Galculator
+Name=Galculator
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-XFCE-Source=file:///usr/share/applications/galculator.desktop

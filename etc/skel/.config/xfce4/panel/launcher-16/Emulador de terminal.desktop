@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+Comment[pt_BR]=Usar a linha de comando
+Comment=Usar a linha de comando
+Exec=exo-open --launch TerminalEmulator
+GenericName[pt_BR]=
+GenericName=
+Icon=org.xfce.terminalemulator
+MimeType=
+Name[pt_BR]=Emulador de terminal
+Name=Emulador de terminal
+OnlyShowIn=XFCE;
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-AppStream-Ignore=True
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-XFCE-Source=file:///usr/share/applications/xfce4-terminal-emulator.desktop

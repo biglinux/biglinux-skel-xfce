@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=org.kde.dolphin.desktop,galculator.desktop,big-store.desktop
+recent=org.kde.dolphin.desktop,xfce-ui-settings.desktop,org.manjaro.pamac.manager.desktop,xfce-session-settings.desktop,xfce4-file-manager.desktop,galculator.desktop,big-store.desktop
 button-icon=biglinux-blue
 button-single-row=false
 show-button-title=false
