@@ -17,6 +17,4 @@ GenericName[pt]=Calculadora
 GenericName[pt_BR]=Calculadora
 Name[pt]=Calculadora do Deepin
 Name[pt_BR]=deepin Calculadora
-Path=
-Terminal=false
-X-XFCE-Source=file:///home/xfce23/.local/share/applications/deepin-calculator.desktop
+X-XFCE-Source=file:///usr/share/applications/deepin-calculator.desktop
