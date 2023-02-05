@@ -16,7 +16,7 @@
         <value type="int" value="1"/>
         <value type="int" value="4"/>
         <value type="int" value="16"/>
-        <value type="int" value="21"/>
+        <value type="int" value="17"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="5"/>
@@ -67,11 +67,6 @@
     <property name="plugin-14" type="string" value="actions"/>
     <property name="plugin-7" type="string" value="whiskermenu"/>
     <property name="plugin-15" type="string" value="showdesktop"/>
-    <property name="plugin-21" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="Galculator.desktop"/>
-      </property>
-    </property>
     <property name="plugin-1" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="brave.desktop"/>
@@ -85,6 +80,16 @@
     <property name="plugin-16" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="Emulador de terminal.desktop"/>
+      </property>
+      <property name="plugin-16" type="string" value="launcher">
+        <property name="items" type="array">
+          <value type="string" value="Emulador de terminal.desktop"/>
+        </property>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="Calculadora.desktop"/>
       </property>
     </property>
   </property>
