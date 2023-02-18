@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>mystiq</icon>
+	<name>Converter áudio e vídeo</name>
+	<submenu></submenu>
+	<unique-id>1676327328650038-1</unique-id>
+	<command>/usr/bin/mystiq %f</command>
+	<description>software que permite aos usuários mudar o formato de arquivos de áudio ou vídeo</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Abrir terminal aqui</name>
+	<submenu></submenu>
+	<unique-id>1676323298761608-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Exemplo de uma ação personalizada</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+</actions>
