@@ -99,7 +99,7 @@
     </property>
     <property name="plugin-9" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16767345961.desktop"/>
+        <value type="string" value="xfce4-power-manager-settings.desktop"/>
       </property>
     </property>
   </property>
