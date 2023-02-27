@@ -89,7 +89,7 @@
     </property>
     <property name="plugin-17" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="galculator.desktop"/>
+        <value type="string" value="mate-calc.desktop"/>
       </property>
     </property>
     <property name="plugin-18" type="string" value="launcher">
