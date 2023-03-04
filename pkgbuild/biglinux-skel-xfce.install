@@ -9,8 +9,6 @@
 
 ## arg 1:  the new package version
 post_install() {
-echo "export QT_QPA_PLATFORMTHEME=qt5ct
-export QT_AUTO_SCREEN_SCALE_FACTOR=0" | tee -a /etc/environment
 
 bash /usr/share/libalpm/scripts/big-lightdm-greeter
 bash /usr/share/libalpm/scripts/big-lightdm
