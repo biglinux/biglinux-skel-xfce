@@ -1,6 +1,0 @@
-#!/bin/sh
-
-if [ -z "$(grep NoDisplay=true /usr/share/applications/hp-uiscan.desktop)" ];
-then
-    echo "NoDisplay=true" >> /usr/share/applications/hp-uiscan.desktop
-fi

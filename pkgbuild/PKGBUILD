@@ -1,4 +1,4 @@
-# Maintainer: Barnabé <barnabedikartola@gmail.com>
+# Maintainer: Tales A. Mendonça <talesam@gmail.com>
 
 pkgname=biglinux-skel-xfce
 pkgver=$(date +%y.%m.%d)
