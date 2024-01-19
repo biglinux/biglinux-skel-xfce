@@ -10,7 +10,7 @@
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="24"/>
-      <property name="size" type="uint" value="40"/>
+      <property name="size" type="uint" value="42"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
         <value type="int" value="5"/>
@@ -25,8 +25,8 @@
         <value type="int" value="14"/>
       </property>
       <property name="mode" type="uint" value="2"/>
-      <property name="enter-opacity" type="uint" value="80"/>
-      <property name="leave-opacity" type="uint" value="80"/>
+      <property name="enter-opacity" type="uint" value="90"/>
+      <property name="leave-opacity" type="uint" value="90"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -93,6 +93,7 @@
       <property name="show-command-menueditor" type="bool" value="false"/>
       <property name="show-command-profile" type="bool" value="false"/>
       <property name="recent" type="array">
+        <value type="string" value="org.kde.kfind.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="xfce-session-settings.desktop"/>
         <value type="string" value="mate-calc.desktop"/>
@@ -104,8 +105,13 @@
         <value type="string" value="xfce-ui-settings.desktop"/>
       </property>
       <property name="menu-opacity" type="int" value="80"/>
-      <property name="menu-width" type="int" value="370"/>
+      <property name="menu-width" type="int" value="310"/>
       <property name="menu-height" type="int" value="500"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+      <property name="position-profile-alternate" type="bool" value="true"/>
+      <property name="show-command-logoutuser" type="bool" value="true"/>
+      <property name="show-command-restart" type="bool" value="true"/>
+      <property name="show-command-shutdown" type="bool" value="true"/>
     </property>
     <property name="plugin-1" type="string" value="xfce4-clipman-plugin"/>
     <property name="clipman" type="empty">
