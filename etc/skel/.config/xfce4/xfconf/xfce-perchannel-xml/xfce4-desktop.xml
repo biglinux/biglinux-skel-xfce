@@ -29,18 +29,28 @@
   </property>
   <property name="desktop-icons" type="empty">
     <property name="style" type="int" value="2"/>
-    <property name="gravity" type="int" value="0"/>
+    <property name="show-thumbnails" type="bool" value="false"/>
+    <property name="show-tooltips" type="bool" value="false"/>
+    <property name="use-custom-font-size" type="bool" value="false"/>
+    <property name="primary" type="bool" value="false"/>
     <property name="file-icons" type="empty">
-      <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-removable" type="bool" value="false"/>
+      <property name="show-filesystem" type="bool" value="false"/>
     </property>
-    <property name="tooltip-size" type="double" value="80"/>
+    <property name="gravity" type="int" value="2"/>
   </property>
   <property name="last" type="empty">
     <property name="window-width" type="int" value="634"/>
     <property name="window-height" type="int" value="566"/>
   </property>
   <property name="desktop-menu" type="empty">
-    <property name="show" type="bool" value="false"/>
+    <property name="show-icons" type="bool" value="true"/>
+    <property name="show-delete" type="bool" value="true"/>
+    <property name="show" type="bool" value="true"/>
+  </property>
+  <property name="windowlist-menu" type="empty">
+    <property name="show" type="bool" value="true"/>
+    <property name="show-icons" type="bool" value="true"/>
+    <property name="show-add-remove-workspaces" type="bool" value="true"/>
   </property>
 </channel>
