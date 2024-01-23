@@ -88,12 +88,13 @@
       <property name="button-single-row" type="bool" value="true"/>
       <property name="default-category" type="int" value="2"/>
       <property name="hover-switch-category" type="bool" value="true"/>
-      <property name="show-command-settings" type="bool" value="false"/>
+      <property name="show-command-settings" type="bool" value="true"/>
       <property name="show-command-lockscreen" type="bool" value="false"/>
       <property name="show-command-logout" type="bool" value="false"/>
       <property name="show-command-menueditor" type="bool" value="false"/>
       <property name="show-command-profile" type="bool" value="false"/>
       <property name="recent" type="array">
+        <value type="string" value="org.kde.kfind.desktop"/>
         <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="xfce-session-settings.desktop"/>
