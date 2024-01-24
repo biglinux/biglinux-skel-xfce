@@ -27,6 +27,13 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
+# ----- History Configuration -----
+HISTCONTROL=ignoreboth  # Prevent saving commands that start with a space and duplicates
+shopt -s histappend     # Append history rather than overwrite
+HISTSIZE=1000           # Store up to 1000 commands in memory
+HISTFILESIZE=2000       # Store up to 2000 commands in history file
+shopt -s checkwinsize   # Automatically adjust window size after each command
+
 # Load Blesh for enhanced interactive shell experience
 if [[ -f /usr/share/blesh/ble.sh ]] && [[ ! -f ~/.bash-normal ]] && [[ $TERM != linux ]]; then
     source /usr/share/blesh/ble.sh --noattach
@@ -101,13 +108,6 @@ if [[ -f /usr/share/blesh/ble.sh ]] && [[ ! -f ~/.bash-normal ]] && [[ $TERM != 
     #     alias lt='eza --tree --level=2 --icons'                                         # tree
     # fi
 fi
-
-# ----- History Configuration -----
-# HISTCONTROL=ignoreboth  # Prevent saving commands that start with a space and duplicates
-# shopt -s histappend     # Append history rather than overwrite
-# HISTSIZE=1000           # Store up to 1000 commands in memory
-# HISTFILESIZE=2000       # Store up to 2000 commands in history file
-# shopt -s checkwinsize   # Automatically adjust window size after each command
 
 # Load custom aliases
 if [ -f ~/.bash_aliases ]; then
