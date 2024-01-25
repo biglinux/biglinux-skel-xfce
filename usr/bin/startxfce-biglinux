@@ -33,5 +33,10 @@ fi
 
 ### Execute in LiveCD
 if [ -e /usr/bin/startbiglive ]; then
-    cp /usr/share/applications/calamares-biglinux.desktop $HOME/Desktop/
+    if [ ! -d "/home/biglinux/Desktop" ]; then
+        mkdir -p /home/biglinux/Desktop
+        cp /usr/share/applications/calamares-biglinux.desktop /home/biglinux/Desktop/
+    else
+        cp /usr/share/applications/calamares-biglinux.desktop /home/biglinux/Desktop/
+    fi
 fi
