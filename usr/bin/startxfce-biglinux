@@ -33,10 +33,19 @@ fi
 
 ### Execute in LiveCD
 if [ -e /usr/bin/startbiglive ]; then
-    if [ ! -d "/home/biglinux/Desktop" ]; then
-        mkdir -p /home/biglinux/Desktop
-        cp /usr/share/applications/calamares-biglinux.desktop /home/biglinux/Desktop/
-    else
-        cp /usr/share/applications/calamares-biglinux.desktop /home/biglinux/Desktop/
+    
+    # Copy the file to install biglinux to the desktop and configure permissions
+    local homeBigDesk="/home/biglinux/Desktop"
+    if [ ! -d "$homeBigDesk" ]; then
+        mkdir -p $homeBigDesk
     fi
+
+    cp -f /usr/share/applications/calamares-biglinux.desktop $homeBigDesk
+    cd $homeBigDesk
+
+    # Generate the SHA256sum of the file on each boot
+    checksum=$(sha256sum calamares-biglinux.desktop | awk '{print $1}')
+
+    # Set metadata using gio
+    gio set calamares-biglinux.desktop metadata::xfce-exe-checksum "$checksum"
 fi
