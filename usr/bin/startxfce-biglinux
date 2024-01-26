@@ -35,17 +35,20 @@ fi
 if [ -e /usr/bin/startbiglive ]; then
     
     # Copy the file to install biglinux to the desktop and configure permissions
-    local homeBigDesk="/home/biglinux/Desktop"
+    homeBigDesk="/home/biglinux/Desktop"
     if [ ! -d "$homeBigDesk" ]; then
-        mkdir -p $homeBigDesk
+        mkdir -p "$homeBigDesk"
     fi
 
-    cp -f /usr/share/applications/calamares-biglinux.desktop $homeBigDesk
-    cd $homeBigDesk
+    cp -f /usr/share/applications/calamares-biglinux.desktop "$homeBigDesk"
+    cd "$homeBigDesk"
 
     # Generate the SHA256sum of the file on each boot
     checksum=$(sha256sum calamares-biglinux.desktop | awk '{print $1}')
 
     # Set metadata using gio
     gio set calamares-biglinux.desktop metadata::xfce-exe-checksum "$checksum"
+    
+    # Back to home
+    cd
 fi
