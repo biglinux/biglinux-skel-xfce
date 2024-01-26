@@ -48,4 +48,7 @@ if [ -e /usr/bin/startbiglive ]; then
 
     # Set metadata using gio
     gio set calamares-biglinux.desktop metadata::xfce-exe-checksum "$checksum"
+    
+    # Back to home
+    cd
 fi
