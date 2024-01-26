@@ -9,7 +9,7 @@
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="icon-size" type="uint" value="0"/>
+      <property name="icon-size" type="uint" value="20"/>
       <property name="size" type="uint" value="27"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
@@ -94,7 +94,7 @@
       <property name="show-command-menueditor" type="bool" value="false"/>
       <property name="show-command-profile" type="bool" value="false"/>
       <property name="recent" type="array">
-        <value type="string" value="org.kde.kfind.desktop"/>
+        <value type="string" value="galculator.desktop"/>
         <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="xfce-session-settings.desktop"/>
