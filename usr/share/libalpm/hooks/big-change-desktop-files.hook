@@ -2,10 +2,9 @@
 Type = Package
 Operation = Install
 Operation = Upgrade
-Target = etc/skel/.bashrc
 Target = biglinux-skel-xfce
 
 [Action]
-Description = BigLinux change skel .bashrc
+Description = BigLinux change Biglinux desktop files
 When = PostTransaction
-Exec = /usr/share/libalpm/scripts/big-bashrc
+Exec = /usr/share/libalpm/scripts/big-change-desktop-files.sh
