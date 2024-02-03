@@ -81,13 +81,13 @@
       <property name="appearance" type="uint" value="0"/>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu">
-      <property name="category-show-name" type="bool" value="false"/>
-      <property name="launcher-show-tooltip" type="bool" value="false"/>
-      <property name="view-mode" type="int" value="1"/>
+      <property name="category-show-name" type="bool" value="true"/>
+      <property name="launcher-show-tooltip" type="bool" value="true"/>
+      <property name="view-mode" type="int" value="0"/>
       <property name="launcher-show-description" type="bool" value="false"/>
       <property name="button-icon" type="string" value="big-launcher3"/>
       <property name="button-single-row" type="bool" value="true"/>
-      <property name="default-category" type="int" value="2"/>
+      <property name="default-category" type="int" value="0"/>
       <property name="hover-switch-category" type="bool" value="true"/>
       <property name="show-command-settings" type="bool" value="true"/>
       <property name="show-command-lockscreen" type="bool" value="false"/>
@@ -95,9 +95,9 @@
       <property name="show-command-menueditor" type="bool" value="false"/>
       <property name="show-command-profile" type="bool" value="true"/>
       <property name="recent" type="array">
+        <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="org.bluesabre.Mugshot.desktop"/>
         <value type="string" value="galculator.desktop"/>
-        <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
         <value type="string" value="xfce-session-settings.desktop"/>
         <value type="string" value="org.xfce.mousepad.desktop"/>
@@ -106,15 +106,17 @@
         <value type="string" value="plank.desktop"/>
         <value type="string" value="xfce-wm-settings.desktop"/>
       </property>
-      <property name="menu-opacity" type="int" value="80"/>
-      <property name="menu-width" type="int" value="310"/>
-      <property name="menu-height" type="int" value="500"/>
+      <property name="menu-opacity" type="int" value="90"/>
+      <property name="menu-width" type="int" value="650"/>
+      <property name="menu-height" type="int" value="560"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="position-profile-alternate" type="bool" value="true"/>
       <property name="show-command-logoutuser" type="bool" value="true"/>
       <property name="show-command-restart" type="bool" value="true"/>
       <property name="show-command-shutdown" type="bool" value="true"/>
       <property name="show-command-suspend" type="bool" value="true"/>
+      <property name="launcher-icon-size" type="int" value="3"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
     </property>
     <property name="plugin-1" type="string" value="xfce4-clipman-plugin"/>
     <property name="clipman" type="empty">
