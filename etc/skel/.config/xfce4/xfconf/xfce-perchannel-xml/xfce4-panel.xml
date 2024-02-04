@@ -25,8 +25,8 @@
         <value type="int" value="14"/>
       </property>
       <property name="mode" type="uint" value="0"/>
-      <property name="enter-opacity" type="uint" value="90"/>
-      <property name="leave-opacity" type="uint" value="90"/>
+      <property name="enter-opacity" type="uint" value="80"/>
+      <property name="leave-opacity" type="uint" value="80"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -95,6 +95,7 @@
       <property name="show-command-menueditor" type="bool" value="false"/>
       <property name="show-command-profile" type="bool" value="true"/>
       <property name="recent" type="array">
+        <value type="string" value="xfce-wm-settings.desktop"/>
         <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="org.bluesabre.Mugshot.desktop"/>
         <value type="string" value="galculator.desktop"/>
@@ -104,11 +105,10 @@
         <value type="string" value="thunar.desktop"/>
         <value type="string" value="xfce-wmtweaks-settings.desktop"/>
         <value type="string" value="plank.desktop"/>
-        <value type="string" value="xfce-wm-settings.desktop"/>
       </property>
       <property name="menu-opacity" type="int" value="90"/>
-      <property name="menu-width" type="int" value="650"/>
-      <property name="menu-height" type="int" value="560"/>
+      <property name="menu-width" type="int" value="560"/>
+      <property name="menu-height" type="int" value="600"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="position-profile-alternate" type="bool" value="true"/>
       <property name="show-command-logoutuser" type="bool" value="true"/>
