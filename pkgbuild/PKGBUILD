@@ -11,6 +11,7 @@ provides=('bashrc')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 install=${pkgname}.install
+depends=('adw-gtk3' 'adw-gtk-theme')
 conflicts=('big-skel' 'bashrc-manjaro')
 
 package() {
