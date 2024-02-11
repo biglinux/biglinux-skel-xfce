@@ -10,9 +10,13 @@ license=('GPL3')
 provides=('bashrc')
 source=("git+${url}.git")
 sha256sums=('SKIP')
-install=${pkgname}.install
 depends=('adw-gtk3' 'adw-gtk-theme')
 conflicts=('big-skel' 'bashrc-manjaro')
+if [ -e "${pkgname}.install" ];then
+    install=${pkgname}.install
+elif [ -e "pkgbuild.install" ];then
+    install=pkgbuild.install
+fi
 
 package() {
     # Verify default folder
